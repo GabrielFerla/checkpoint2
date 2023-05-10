@@ -1,0 +1,54 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #dc143c !important;
+}
+
+body, button, input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+.bg-dark {
+    background-color: #000;
+}
+
+.bg-image-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)),
+    url(../images/pexels-tim-mossholder-2331884.jpg);
+}
+
+.bg-image-2 {
+    background-image: url(../images/pexels-alleksana-4186555.jpg);
+}
