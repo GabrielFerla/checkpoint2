@@ -54,13 +54,28 @@ ol {
 }
 
 .backgroundDark {
-    display: flex;
-    min-height: 100vh;
     background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
 }
 
 .backgroundLight {
-    display: flex;
-    min-height: 100vh;
     background: linear-gradient(to right, #f6d365 0%, #fda085 100%);
+}
+
+.footer{
+    padding: 2vh 1vw;
+    color:rgb(227, 227, 227);
+    font-family: 'Castoro Titling', cursive;
+}
+
+.bg-footer{
+    background-color: #87396b;
+}
+
+.icon-footer{
+    width: 10vh;
+    height: 10vh;
+}
+
+.flex{
+    display:flex;
 }

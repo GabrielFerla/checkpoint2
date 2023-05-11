@@ -19,6 +19,19 @@ function validaTema(){
         document.getElementById('changeColor').classList.add("backgroundDark");
     }
 
+    if(document.getElementById('changeColorFooter').classList.contains("backgroundLight")){
+        //se for dark muda para light
+
+
+        document.getElementById('changeColorFooter').classList.remove("backgroundLight");
+        document.getElementById('changeColorFooter').classList.add("backgroundDark");
+
+    }else{
+        //se for light muda para dark
+        document.getElementById('changeColorFooter').classList.remove("backgroundDark");
+        document.getElementById('changeColorFooter').classList.add("backgroundLight");
+    }
+
 }
 
 
