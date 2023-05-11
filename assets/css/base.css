@@ -52,3 +52,9 @@ ol {
 .bg-image-2 {
     background-image: url(../images/pexels-alleksana-4186555.jpg);
 }
+
+.background {
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
+  }
