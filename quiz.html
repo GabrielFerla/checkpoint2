@@ -10,16 +10,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- linkar a Css -->
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/headers.css">
     <link rel="stylesheet" href="./assets/css/hero.css">
     <link rel="stylesheet" href="./assets/css/btn.css">
+    <link rel="stylesheet" href="./assets/css/checkbox.css">
     <link rel="stylesheet" href="./assets/css/cards.css">
     <link rel="stylesheet" href="./assets/css/slide.css">
     <link rel="stylesheet" href="./assets/css/contato.css">
     <link rel="stylesheet" href="./assets/css/quiz.css">
+
 
 </head>
 
@@ -34,10 +37,18 @@
                 <li><a href="/contato.html">Contato</a></li>
                 <li><a href="/quiz.html">Sobre</a></li>
                 <li><a href="/produto.html">Produto</a></li>
+                <li>
+                    <input type="checkbox" class="checkbox" id="checkbox" onclick="validaTema()">
+                    <label for="checkbox" class="checkbox-label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <span class="ball"></span>
+                    </label>
+                </li>
             </ul>
         </nav>
     </header>
-    <div class="backgroundLight" id="changeColor">
+    <div id="changeColor" class="backgroundLight" >
         <div class="container">
             <div class="quiz">
                 <h2  id="respostaQuizTituloRemover">Clique no botão abaixo para iniciar o quiz!!</h2>
@@ -49,6 +60,7 @@
     
     </div>
     <script src="./assets/js/quiz.js"></script>
+    <script src="./assets/js/script.js"></script>
 
 </body>
 
