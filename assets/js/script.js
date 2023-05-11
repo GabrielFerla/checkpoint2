@@ -1,3 +1,9 @@
+
+if(document.URL.includes("index.html"))
+{
+    alert('Seja bem-vindo')
+}
+
 function clearCampos(){
     document.getElementById('nome').value='';
     document.getElementById('email').value='';

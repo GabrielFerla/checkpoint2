@@ -16,7 +16,7 @@
   
   .container {
     flex: 0 1 700px;
-    padding: 200px 500px;
+    padding: 200px 500px !important;
     margin: auto;
     padding: 10px;
     padding-top: 100px;
