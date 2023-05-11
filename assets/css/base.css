@@ -53,8 +53,14 @@ ol {
     background-image: url(../images/pexels-alleksana-4186555.jpg);
 }
 
-.background {
+.backgroundDark {
     display: flex;
     min-height: 100vh;
     background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
-  }
+}
+
+.backgroundLight {
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(to right, #f6d365 0%, #fda085 100%);
+}
