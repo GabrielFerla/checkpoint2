@@ -67,11 +67,11 @@
                     <input class="app-form-control" id="email" placeholder="Email">
                     </div>
                     <div class="app-form-group">
-                    <input class="app-form-control" id="telefone" placeholder="Telefone">
+                    <input onkeyup="handlePhone(event)" class="app-form-control" maxlength="15" id="telefone" placeholder="Telefone">
                     </div>
                     <div class="app-form-group buttons">
                     <button onclick="clearCampos()" class="app-form-button">Limpar</button>
-                    <button class="app-form-button">Enviar</button>
+                    <button onclick="validarFormulario()" class="app-form-button">Enviar</button>
                     </div>
                 </div>
                 </div>

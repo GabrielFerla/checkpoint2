@@ -21,3 +21,7 @@
 .quiz a {
     margin-top: 25px;
 }
+
+.dontShow {
+    display: none;
+}
