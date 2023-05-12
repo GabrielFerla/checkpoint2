@@ -87,3 +87,11 @@ function validarFormulario(){
         clearCampos();
     }
 }
+
+function horarioRodape(){
+    let data = new Date()
+    console.log(data)
+    document.getElementById('tempo').innerHTML = (('0' + data.getDate()).slice(-2))   + " / " + ('0' + (data.getMonth()+1)).slice(-2) + " / " + data.getFullYear()
+}
+
+horarioRodape()
